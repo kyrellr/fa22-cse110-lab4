@@ -1,4 +1,4 @@
-**Answers to Part 2. A Little More of a Challenge...**
+## **Part 2. A Little More of a Challenge...**
 
 1. **Line 12 will print `3`** because that is the updated value of `i` once outside of the loop. This variable can be accessed even though it is outside of the loop because it was declared using `var`.
    
@@ -23,7 +23,7 @@
 11. **The function will return `[50, 100, 150]`.** As we saw in questions 7, 8, and 10, declaration outside of blocks allows us to access the variable we're calling.<br><br>
 
 
-**Data Types**
+### **Data Types**
 
 12. 
     A. `student.name` <br>
@@ -33,7 +33,7 @@
     E. `student.courseLoad[0]` <br><br>
 
 
-**Basic Operators & Type Conversion**
+### **Basic Operators & Type Conversion**
 
 13. 
     A. `'3' + 2` = `'32'` because for strings, if any of the operands between `+` is a string, then the other one is converted to a string too. <br>
@@ -56,12 +56,12 @@
 15. `==` is the regular equality check, while `===` checks equality without type conversion.<br><br>
 
 
-**Functions**
+### **Functions**
 
 17.  **After calling the function with those parameters, `[2,4,6]` is returned.** We start with `array` equal to `[1,2,3]` and `callback` equal to the `doSomething` function. The for loop takes each element in the array and puts it through the doSomething function. Namely, it takes 1 and multiplies it by 2, then 2 and multiples it by 2, then the same for 3. After each time the doSomething function finishes, the returned value is pushed into `newArr`. So, we get `[2,4,6]`. <br><br>
 
 
-**setInterval(), setTimeout(), clearTimeout()**
+### **setInterval(), setTimeout(), clearTimeout()**
 
 19. The output of the code is:
 ```
